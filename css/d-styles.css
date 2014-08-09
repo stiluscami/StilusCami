@@ -1,0 +1,64 @@
+/* CSS Stylesheet
+  D-Level Styles
+  Property of Camille Nicodemus
+  StilusCami.com 2014
+*/
+
+/* Our main div d0 holds all of the content and navigation.
+Only one instance hence defined as an ID. */
+#d0 {
+  width: 60%;
+  height: 90%;
+  margin: 0 auto; /* Centers the div */
+  background-color: #FFFFFF;
+}
+
+.d1 {
+  background-color: #FFFFFF;
+}
+
+.d1 a {
+  color: #999999;
+  text-decoration: none;
+}
+
+.d1 a:hover {
+  text-decoration: none;
+  color: #E8E8E8;
+}
+
+/* d1header defines the top header of our page. */
+#d1header {
+  width:100%;
+  height:15%;
+  border: 0;
+  font-size: 250%;
+  color: #999999;
+  text-align: center;
+}
+
+/* d1nav defines the left sidebar of our page. */
+#d1nav {
+  width: 28%;
+  height: 75%;
+  float:left;
+  border: 1px dashed #A1A1A1;
+  text-align: center;
+  padding: 6px;
+}
+
+/* d1content defines the right content bar of our page. */
+#d1content {
+  width: 68%;
+  height: 75%;
+  float:left;
+  border: 1px dashed #A1A1A1;
+  margin-left: 2px;
+  padding: 6px;
+}
+
+#d1footer {
+  width: 100%;
+  height: 10%;
+  clear: both;
+}

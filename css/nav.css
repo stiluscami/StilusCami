@@ -1,0 +1,34 @@
+/* CSS Stylesheet
+  Navigation Bar Styles
+  Property of Camille Nicodemus
+  StilusCami.com 2014
+*/
+
+#nav-left {
+  height: 20%;
+  position: relative;
+  width: 20%;
+  background-color: #000000;
+}
+
+#nav-links {
+  width: 100%;
+}
+
+#nav-links  ul{
+  list-style-type: none;
+}
+
+#nav-links ul li {
+  float: left; /* This aligns them horizontally rather than vertically */
+  width: 20%;
+}
+
+#nav-links a {
+  text-decoration: none;
+  color: #999999;
+}
+
+#nav-links a:hover {
+  color: #ffffff;
+}
